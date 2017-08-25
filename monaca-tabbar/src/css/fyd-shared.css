@@ -1,0 +1,188 @@
+/* Fonts */
+
+* {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 13px;
+}
+
+p {
+    margin: 0;
+}
+
+.fyd-text-tiny {
+    font-size: 12px;
+}
+
+.fyd-text-medium {
+    font-size: 16px;
+}
+
+.fyd-text-large {
+    font-size: 24px;
+}
+
+.fyd-text-very-large {
+    font-size: 34px;
+}
+
+.fyd-bold {
+    font-weight: bold;
+}
+
+
+/* images  */
+
+.fyd-thumbnail {
+    border-radius: 20px;
+    padding-left: 5px;
+}
+
+
+/* Text */
+
+
+/* (including override for Onsen rows & columns) */
+
+.fyd-align-center,
+ons-col[align="center"].fyd-align-center {
+    text-align: center;
+}
+
+.fyd-align-left,
+ons-col[align="left"].fyd-align-left {
+    text-align: left;
+}
+
+.fyd-align-right,
+ons-col[align="right"].fyd-align-right {
+    text-align: right;
+}
+
+
+/* Colors */
+
+.fyd-color-red {
+    color: #ef3f48;
+}
+
+.fyd-color-white {
+    color: #fff;
+}
+
+.fyd-color-gray {
+    color: #ccc;
+}
+
+.fyd-color-yellow {
+    color: #ffd046;
+}
+
+.fyd-color-orange {
+    color: #f38e40;
+}
+
+.fyd-color-green {
+    color: #20b710;
+}
+
+.fyd-color-blue {
+    color: #43a9a2;
+}
+
+.fyd-color-black {
+    color: black;
+}
+
+.fyd-bg-red {
+    background-color: #ef3f48;
+}
+
+.fyd-bg-yellow {
+    background-color: #ffd046;
+}
+
+.fyd-bg-orange {
+    background-color: #f38e40;
+}
+
+.fyd-bg-green {
+    background-color: #20b710;
+}
+
+.fyd-bg-blue {
+    background-color: #43a9a2;
+}
+
+.fyd-bg-white {
+    background-color: white;
+}
+
+.fyd-hr {
+    background-color: #7f8c8d;
+    margin-right: 8px;
+    margin-left: 8px;
+    opacity: 0.5;
+}
+
+.fyd-sidepadding-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.fyd-no-padding {
+    padding: 0
+}
+
+.fyd-btn {
+    border-radius: 0;
+}
+
+.fyd-scheduler-segment {
+    height: 25px;
+}
+
+.fyd-color-availability-blue {
+    color: #27A4DD;
+}
+
+.fyd-color-availability-bg-blue {
+    background-color: #27A4DD;
+}
+
+.fyd-color-availability-green {
+    color: #9DD5C0;
+}
+
+.fyd-color-availability-bg-green {
+    background-color: #9DD5C0;
+}
+
+.fyd-color-availability-pink {
+    color: #F39CC3;
+}
+
+.fyd-color-availability-bg-pink {
+    background-color: #F39CC3;
+}
+
+.fyd-color-availability-red {
+    color: #F1646C;
+}
+
+.fyd-color-availability-bg-red {
+    background-color: #F1646C;
+}
+
+.fyd-color-availability-yellow {
+    color: #FAC174;
+}
+
+.fyd-color-availability-bg-yellow {
+    background-color: #FAC174;
+}
+
+.fyd-border-bottom-red {
+    border-bottom: 1px #ef3f48 solid;
+}

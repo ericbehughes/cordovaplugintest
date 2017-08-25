@@ -1,0 +1,32 @@
+.fyd-chosen-dates-cells {
+    border: 1px solid #ccc;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.checkbox--fyd-checkbox__input:checked,
+.checkbox--fyd-checkbox__input:checked + .checkbox__checkmark:before,
+.checkbox--fyd-checkbox__input:checked + .checkbox__checkmark:after {
+    background: #ef3f48;
+    border-width: 2px;
+}
+
+.range--fyd-range__input {
+    background-image: linear-gradient(rgba(239, 63, 72, 1), rgba(239, 63, 72, 1))
+}
+
+.fyd-time-picker{
+    padding: 19px;
+}
+
+.fyd-datepicker-labels{
+    padding-top: 5px;
+}
+
+.fyd-availability-active{
+    color: red;
+}
